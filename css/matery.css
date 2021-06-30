@@ -247,10 +247,11 @@ mark {
 }
 
 .text-color {
-  color: #0f9d58 !important;
+  
+  color: #00F5FF;
 
 }
-
+/*  最下方统计颜色*/
 .white-color {
     color: #fff;
 }
@@ -2041,7 +2042,6 @@ footer .copy-right {
 /*二级菜单*/
 
 .nav-menu {
-	color:	#8B0000;
 }
 
 .nav-menu li .sub-nav {
@@ -2068,7 +2068,7 @@ footer .copy-right {
     padding: 0;
     display: inline-block;
     border-radius: 5px;
-    color: #000;
+    color: #00F5FF;
 }
 
 .nav-show i[aria-hidden=true] {
