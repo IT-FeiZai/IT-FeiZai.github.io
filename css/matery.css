@@ -236,17 +236,19 @@ mark {
     object-fit: cover;
 }
 
+/* 文章颜色*/
 .container .row {
     margin-bottom: 0;
 }
 
 .bg-color {
     background-image: linear-gradient(to right, #8cbfb8 0%, #128c6f 80%);
-	opacity: 0.8 
+	opacity: 0.7 
 }
 
 .text-color {
-    color: #0f9d58 !important;
+  color: #0f9d58 !important;
+
 }
 
 .white-color {
@@ -283,7 +285,7 @@ nav {
 header .nav-transparent {
     background-color: transparent !important;
 	
-  background-color: #000B3F;
+   background-color: #000B3F;
     background-image: none;
     box-shadow: none;
 }
@@ -305,6 +307,7 @@ header .brand-logo .logo-span {
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
 header .brand-logo .waves-effect {
     vertical-align: top;
+
 }
 
 header .button-collapse i {
@@ -508,12 +511,15 @@ header .side-nav .social-link {
     top: 23vh;
     width: 100%;
     text-align: center;
+	 
 }
 
+/* 中间QQ等 按钮的设置*/
 .cover-social-link a {
     padding: 0 15px;
     font-size: 1.35rem;
     color: #fff;
+	display: none;
 }
 
 header .go-back {
@@ -570,24 +576,28 @@ header .go-back i {
     content: ""; 
 } 
 
+/* 标题加滚动字体的设置  */
 .bg-cover .container {
     position: relative;
     color: #fff;
     z-index: 2;
+	
 }
-
+/* 标题的设置  */
 .bg-cover .title {
     font-size: 4rem;
     line-height: 1.2em;
     margin-bottom: 20px;
     position: relative;
+	color: 	#9C9C9C;
 }
 
+/* 滚动字体的颜色  */
 .bg-cover .description {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: 	#9C9C9C;
 }
 
 .bg-cover .post-title {
@@ -731,8 +741,10 @@ header .go-back i {
     padding-top: 30px;
 }
 
+/* 中间梦想字体颜色*/
 .index-card .card .card-content {
     padding: 20px 40px;
+	color: 	#BF3EFF;
 }
 
 @media only screen and (min-width: 1418px) {
@@ -1841,8 +1853,9 @@ footer .social-statis {
     position: relative;
 }
 
+/*底部文字颜色*/
 footer a {
-    color: #fff;
+    color: #CFCFCF;
 }
 
 footer .copy-right {
