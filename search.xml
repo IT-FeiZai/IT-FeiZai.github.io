@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>Hello World</title>
+      <title>基础搭建命令</title>
       <link href="/2021/06/29/hello-world/"/>
       <url>/2021/06/29/hello-world/</url>
       
@@ -20,7 +20,7 @@
       
         <tags>
             
-            <tag> hexo </tag>
+            <tag> -hexo </tag>
             
         </tags>
       
