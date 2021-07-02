@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="基础搭建命令, 小小飞⚡">
+    <meta name="keywords" content="hexo搭建个人博客, 小小飞⚡">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>基础搭建命令 | 小小飞⚡</title>
+    <title>hexo搭建个人博客 | 小小飞⚡</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,7 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 5.4.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
@@ -221,12 +221,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">基础搭建命令</h1>
+                    <h1 class="description center-align post-title">hexo搭建个人博客</h1>
                 </div>
             </div>
         </div>
@@ -354,8 +354,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/JAVA/" class="post-category">
-                                JAVA
+                            <a href="/categories/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/" class="post-category">
+                                快速搭建
                             </a>
                         
                     </div>
@@ -367,7 +367,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-06-29
+                    2021-07-02
                 </div>
                 
 
@@ -376,7 +376,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    75
+                    644
                 </div>
                 
 
@@ -398,19 +398,75 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+                <h1 id="hexo搭建个人博客-基于Windows-10"><a href="#hexo搭建个人博客-基于Windows-10" class="headerlink" title="hexo搭建个人博客(基于Windows 10)"></a>hexo搭建个人博客(基于Windows 10)</h1><h2 id="1-下载node"><a href="#1-下载node" class="headerlink" title="1.下载node"></a>1.下载node</h2><p>网址:<a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+<p>傻瓜式安装</p>
+<pre class=" language-java"><code class="language-java">node <span class="token operator">-</span>v     <span class="token comment" spellcheck="true">//查看node版本</span>
+npm  <span class="token operator">-</span>v     <span class="token comment" spellcheck="true">//查看npm版本</span>
 </code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+<h2 id="2-配置环境变量"><a href="#2-配置环境变量" class="headerlink" title="2.配置环境变量"></a>2.配置环境变量</h2><h3 id="2-1-在高级系统设置中配置环境变量"><a href="#2-1-在高级系统设置中配置环境变量" class="headerlink" title="2.1.在高级系统设置中配置环境变量"></a>2.1.在高级系统设置中配置环境变量</h3><p><img src="/2021/07/02/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/node%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.png"></p>
+<h3 id="2-2-把NODE-PATH添加在Path中"><a href="#2-2-把NODE-PATH添加在Path中" class="headerlink" title="2.2.把NODE_PATH添加在Path中"></a>2.2.把NODE_PATH添加在Path中</h3><h2 id="3-下载git"><a href="#3-下载git" class="headerlink" title="3.下载git"></a>3.下载git</h2><p>网址:<a target="_blank" rel="noopener" href="https://git-scm.com/">https://git-scm.com/</a></p>
+<p>傻瓜式安装</p>
+<h3 id="3-1-在高级系统设置中-Path中配置环境变量"><a href="#3-1-在高级系统设置中-Path中配置环境变量" class="headerlink" title="3.1.在高级系统设置中,Path中配置环境变量"></a>3.1.在高级系统设置中,Path中配置环境变量</h3><p>把下载的git路劲复制进去</p>
+<pre class=" language-xml"><code class="language-xml">D:\Blogs\Git\Git\cmd;
+D:\Blogs\Git\Git\bin;
+D:\Blogs\Git\Git\mingw64\bin;
+D:\Blogs\Git\Git\mingw64\libexec\git-core;
 </code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+<h2 id="4-打开命令行"><a href="#4-打开命令行" class="headerlink" title="4.打开命令行"></a>4.打开命令行</h2><h3 id="4-1-win-r输入cmd-回车"><a href="#4-1-win-r输入cmd-回车" class="headerlink" title="4.1 win+r输入cmd 回车"></a>4.1 win+r输入cmd 回车</h3><h3 id="4-2-安装淘宝的cnpm-管理器"><a href="#4-2-安装淘宝的cnpm-管理器" class="headerlink" title="4.2 安装淘宝的cnpm 管理器"></a>4.2 安装淘宝的cnpm 管理器</h3><pre class=" language-java"><code class="language-java">输入 npm install <span class="token operator">-</span>g cnpm <span class="token operator">--</span>registry<span class="token operator">=</span>http<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>registry<span class="token punctuation">.</span>npm<span class="token punctuation">.</span>taobao<span class="token punctuation">.</span>org   
+ <span class="token comment" spellcheck="true">//cnpm -v    #查看cnpm版本</span>
 </code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+<h3 id="4-3-安装hexo框架"><a href="#4-3-安装hexo框架" class="headerlink" title="4.3 安装hexo框架"></a>4.3 安装hexo框架</h3><pre class=" language-java"><code class="language-java">cnpm install <span class="token operator">-</span>g hexo<span class="token operator">-</span>cli    <span class="token comment" spellcheck="true">// hexo -v    #查看hexo版本</span>
 </code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="4-4-选择一个盘-建立一个文件夹，在文件夹的路径下输入cmd回车"><a href="#4-4-选择一个盘-建立一个文件夹，在文件夹的路径下输入cmd回车" class="headerlink" title="4.4  选择一个盘 建立一个文件夹，在文件夹的路径下输入cmd回车"></a>4.4  选择一个盘 建立一个文件夹，在文件夹的路径下输入cmd回车</h3><h3 id="4-5生成博客-初始化博客"><a href="#4-5生成博客-初始化博客" class="headerlink" title="4.5生成博客 初始化博客"></a>4.5生成博客 初始化博客</h3><pre class=" language-java"><code class="language-java">hexo init
+</code></pre>
+<h3 id="4-6-打开博客"><a href="#4-6-打开博客" class="headerlink" title="4.6 打开博客"></a>4.6 打开博客</h3><pre class=" language-java"><code class="language-java">hexo s
+</code></pre>
+<p>在浏览器中输入localhost://4000 查看生成的博客</p>
+<h2 id="5-进到github的官网"><a href="#5-进到github的官网" class="headerlink" title="5 进到github的官网"></a>5 进到github的官网</h2><h3 id="5-1-登录"><a href="#5-1-登录" class="headerlink" title="5.1 登录"></a>5.1 登录</h3><h3 id="5-2创建仓库"><a href="#5-2创建仓库" class="headerlink" title="5.2创建仓库"></a>5.2创建仓库</h3><p>  仓库起的名字一定要是  登录名称+.github.io。</p>
+<p><strong>生成的仓库页面先不要关闭 一会要使用</strong></p>
+<h3 id="5-3-安装一个插件"><a href="#5-3-安装一个插件" class="headerlink" title="5.3 安装一个插件"></a>5.3 安装一个插件</h3><pre class=" language-java"><code class="language-java"><span class="token operator">*</span><span class="token operator">*</span>cnpm install <span class="token operator">--</span>save hexo<span class="token operator">-</span>deployer<span class="token operator">-</span>git<span class="token operator">*</span><span class="token operator">*</span>
+</code></pre>
+<h2 id="6-设置配置文件"><a href="#6-设置配置文件" class="headerlink" title="6 设置配置文件"></a>6 设置配置文件</h2><p>在自己创建的文件下找到**_config.yml**文件，打开。</p>
+<p>在最后找到</p>
+<pre class=" language-javascript"><code class="language-javascript">deploy<span class="token punctuation">:</span>
+  type<span class="token punctuation">:</span> <span class="token string">'git'</span>
+  repo<span class="token punctuation">:</span>  找到生成仓库的页面 把 SSH 后面的路劲复制到repo后面  
+  branch<span class="token punctuation">:</span>  master
+</code></pre>
+<p> <strong>冒号： 后面一定要跟空格</strong></p>
+<h2 id="7-把博客发布到github上"><a href="#7-把博客发布到github上" class="headerlink" title="7 把博客发布到github上"></a>7 把博客发布到github上</h2><p> 在生成的文件夹下鼠标右键</p>
+<p><img src="/2021/07/02/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E8%A1%8C.png"></p>
+<pre class=" language-java"><code class="language-java">输入 hexo d
+</code></pre>
+<h2 id="8-配置过程中遇见的问题"><a href="#8-配置过程中遇见的问题" class="headerlink" title="8 配置过程中遇见的问题"></a>8 配置过程中遇见的问题</h2><h3 id="8-1-hexo-d-出错"><a href="#8-1-hexo-d-出错" class="headerlink" title="8.1 hexo  d 出错"></a>8.1 hexo  d 出错</h3><p> 报错原因：<strong>ERROR Deployer not found: git</strong></p>
+<p>解决办法：这是因为没安装<code>hexo-deployer-git</code>插件，在命令行中输入</p>
+<pre class=" language-java"><code class="language-java">cnpm install hexo<span class="token operator">-</span>deployer<span class="token operator">-</span>git <span class="token operator">--</span>save
+git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name  IT<span class="token operator">-</span>FeiZai <span class="token string">"yourname"</span><span class="token punctuation">(</span>注册时的账号<span class="token punctuation">)</span>
+git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>email  <span class="token number">2742252980</span><span class="token annotation punctuation">@qq</span><span class="token punctuation">.</span>com<span class="token string">"youremail"</span><span class="token punctuation">(</span>注册时的邮箱<span class="token punctuation">)</span>
+    
+ 然后再hexo  d   
+</code></pre>
+<h3 id="8-2-hexo-init-出错"><a href="#8-2-hexo-init-出错" class="headerlink" title="8.2 hexo  init 出错"></a>8.2 hexo  init 出错</h3><p>查看上面的变量是否配置完全</p>
+<h3 id="8-3-hexo-d-出错"><a href="#8-3-hexo-d-出错" class="headerlink" title="8.3 hexo  d 出错"></a>8.3 hexo  d 出错</h3><p>报错原因：OpenSSL SSL_read: Connection was reset, errno 10054</p>
+<p>解决办法： 打开命令行，输入</p>
+<pre class=" language-java"><code class="language-java">git config <span class="token operator">--</span>global http<span class="token punctuation">.</span>sslVerify <span class="token string">"false"</span>
+然后再执行hexo  d
+</code></pre>
+<h3 id="8-4-hexo-d-连接超时"><a href="#8-4-hexo-d-连接超时" class="headerlink" title="8.4 hexo d  连接超时"></a>8.4 hexo d  连接超时</h3><p><img src="/2021/07/02/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E8%BF%9E%E6%8E%A5%E8%B6%85%E6%97%B6.png"></p>
+<pre class=" language-java"><code class="language-java"> 先执行  git config <span class="token operator">--</span>global <span class="token operator">--</span>unset http<span class="token punctuation">.</span>proxy
+ 在执行  hexo d
+  或者是网络不好 更会再执行 hexo  d 
+</code></pre>
+<h2 id="9-常用三个命令"><a href="#9-常用三个命令" class="headerlink" title="9 常用三个命令"></a>9 常用三个命令</h2><pre class=" language-java"><code class="language-java">hexo  clean  清理
+
+hexo    g  生成
+
+hexo    d   发布
+    
+hexo    s  查看本地博客
+</code></pre>
+<h2 id="10-安装插件"><a href="#10-安装插件" class="headerlink" title="10 安装插件"></a>10 安装插件</h2><pre class=" language-java"><code class="language-java">安装软件 用cnpm   不要用npm<span class="token operator">!</span><span class="token operator">!</span><span class="token operator">!</span>  
+</code></pre>
 
                 
             </div>
@@ -437,7 +493,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/06/29/hello-world/">http://example.com/2021/06/29/hello-world/</a>
+                    <a href="http://example.com/2021/07/02/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">http://example.com/2021/07/02/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -651,13 +707,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2021/06/29/hello-world/">
+                <a href="/2021/07/02/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="基础搭建命令">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="hexo搭建个人博客">
                         
-                        <span class="card-title">基础搭建命令</span>
+                        <span class="card-title">hexo搭建个人博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -668,14 +724,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-02
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/JAVA/" class="post-category">
-                                    JAVA
+                            <a href="/categories/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/" class="post-category">
+                                    快速搭建
                                 </a>
                             
                             
@@ -701,13 +757,13 @@
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2021/06/29/hello-world/">
+                <a href="/2021/07/02/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="基础搭建命令">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="hexo搭建个人博客">
                         
-                        <span class="card-title">基础搭建命令</span>
+                        <span class="card-title">hexo搭建个人博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -718,14 +774,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-02
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/JAVA/" class="post-category">
-                                    JAVA
+                            <a href="/categories/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/" class="post-category">
+                                    快速搭建
                                 </a>
                             
                             
