@@ -600,6 +600,7 @@ header .go-back i {
     color: 	#9C9C9C;
 }
 
+/* 文章题目设置 .post-title*/
 .bg-cover .post-title {
     margin: 0 auto;
     font-size: 2.5rem;
